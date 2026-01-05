@@ -1,5 +1,5 @@
 # About
-PowerShell script to bypass the Cisco Packet Tracer login screen on Windows 10 & 11.
+PowerShell script to bypass the Cisco Packet Tracer login screen on Windows.
 
 [This script](https://github.com/AlexTech0/Packet-Tracer-Login-Bypass/blob/main/bypass-pt.ps1) creates two Firewall rules (inbound and outbound) that block internet access for the Packet Tracer executable file (.exe).
 
@@ -20,3 +20,7 @@ Use at your own risk.
 
 ## More
 You can also bypass the login screen simply by disconnecting from the internet (before opening the program), after that you can connect back to the internet.
+
+Successfully tested on:
+* Windows 11 Pro 25H2, using PowerShell 5.1 and 7.5.4
+* Windows 10 Pro 22H2, using PowerShell 5.1 and 7.5.4
